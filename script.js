@@ -31,6 +31,7 @@ container.appendChild(umaDiv)
 
 const botao = document.createElement('button')
 botao.textContent = "Botao de Teste"
-botao.setAttribute('onClick', 'alert("HelloWorld")')
+botao.setAttribute('id', 'testeBotao')
+botao.onclick = () => alert("Ola Mundo!")
 container.appendChild(botao)
 
