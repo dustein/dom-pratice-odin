@@ -28,3 +28,9 @@ divP.textContent = "Me TOO";
 umaDiv.appendChild(divH1)
 umaDiv.appendChild(divP)
 container.appendChild(umaDiv)
+
+const botao = document.createElement('button')
+botao.textContent = "Botao de Teste"
+botao.setAttribute('onClick', 'alert("HelloWorld")')
+container.appendChild(botao)
+
