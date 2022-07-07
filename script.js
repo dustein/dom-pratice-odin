@@ -37,3 +37,8 @@ botao.addEventListener('click', () => {
 })
 container.appendChild(botao)
 
+const pedra = document.querySelector('#pedra')
+pedra.innerHTML = 'ola'
+pedra.addEventListener('click', () => {
+   pedra.innerHTML = "clicou pedra"
+})
